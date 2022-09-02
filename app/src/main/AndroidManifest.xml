@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.danilas.sportroulette">
+
+    <application
+        android:name="com.danilas.sportroulette.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/sport_roulette"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/sport_roulette"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportRoulette">
+        <activity
+            android:name=".screens.Play"
+            android:exported="false"
+            android:label="Игра"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".screens.MainActivity"
+            android:exported="true"
+            android:label="SportRoulette"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".screens.Exercises"
+            android:exported="false"
+            android:label="Упражнения"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            tools:ignore="LockedOrientationActivity" />
+    </application>
+
+</manifest>

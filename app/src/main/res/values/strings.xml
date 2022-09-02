@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SportRoulette</string>
+    <string name="excercise_name">Название упражнения</string>
+    <string name="button_play">Играть</string>
+    <string name="button_excercise">Упражнения</string>
+    <string name="button_add">Добавить</string>
+    <string name="concat_uid_text">%1$d. %2$s</string>
+    <string name="generate">Сгенерировать</string>
+    <string name="animation_for_numbers">Animation for numbers</string>
+</resources>

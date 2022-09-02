@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/numbers">
+    <target
+        android:animation="@animator/fill_alpha_3"
+        android:name="three" />
+    <target
+        android:animation="@animator/fill_alpha_2"
+        android:name="two"/>
+    <target
+        android:animation="@animator/fill_alpha_1"
+        android:name="one"/>
+</animated-vector>
